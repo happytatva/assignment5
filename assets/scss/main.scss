@@ -1,0 +1,14 @@
+// base css 
+@import "./base/breakpoints.scss";
+@import "./base/mixins.scss";
+@import "./base/variables.scss";
+@import "./base/fonts.scss";
+
+// vendor css 
+@import "./vendors/slick.css";
+@import "./vendors/slick-theme.css";
+
+// component css 
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./components/reset.scss";
+@import "./components/style.scss";
